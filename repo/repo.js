@@ -35,3 +35,13 @@ function Student(name, roll_no, class_, section, marks_of_5_subjects) {
         console.log("+--------------------+");
     };
 }
+let student = new Student("Huzaifa", 16, "X", "A", {
+  science: 73,
+  maths: 75,
+  social_science: 79,
+  english: 80,
+  hindi: 67
+});
+
+student.printTop3Subjects();
+student.printReportCard();
